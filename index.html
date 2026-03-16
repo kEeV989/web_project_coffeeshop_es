@@ -59,19 +59,26 @@
     <main class="content"></main>
     <div class="content__reserva">
       <h2>Reservar una mesa</h2>
-      <form>
+      <form class="form__campos">
         <label for="first-name">Nombre</label>
-        <input type="text" id="first-name" />
+        <input type="text" id="first-name" placeholder="Nombre" />
 
         <label for="numero-participantes">Número de comensales</label>
-        <input type="number" id="numero-participantes" />
+        <input
+          type="number"
+          id="numero-participantes"
+          placeholder="1-8"
+          min="1"
+          max="8"
+        />
 
         <label for="fecha y hora">Fecha y hora</label>
-        <input type="date" id="fecha y hora" />
+        <input type="datetime-local" id="fecha y hora" />
 
         <label for="email">Tu correo electrónico</label>
-        <input type="email" id="email" />
+        <input type="email" id="email" placeholder="email@email.com" />
       </form>
+      <button class="button__reservar" type="submit">Reservar una mesa</button>
     </div>
     <footer class="footer"></footer>
   </body>

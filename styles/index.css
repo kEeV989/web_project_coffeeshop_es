@@ -153,3 +153,12 @@ body {
   text-align: right;
   bottom: 40px;
 }
+
+.content__reserva {
+  background-color: #ffd6c5;
+  background-image: url "../images/background-reservation.svg";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 820px;
+}
