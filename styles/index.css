@@ -227,6 +227,10 @@ button {
   cursor: pointer;
 }
 
+.button__reservar:hover {
+  opacity: 0.7;
+}
+
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
@@ -302,6 +306,11 @@ button {
   color: #ffffff;
   font-family: "inter", sans-serif;
   font-size: 16px;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: #ffd6c5;
 }
 
 .footer__copyright {
